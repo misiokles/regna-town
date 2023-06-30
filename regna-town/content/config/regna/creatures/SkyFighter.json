@@ -1,0 +1,74 @@
+{
+	"ofSkyFighter":
+	{
+		"name" :
+		{
+			"plural" : "Tritons",
+			"singular" : "Triton"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "regna",
+		"aiValue" : 161,
+		"attack" : 14,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1300
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 18
+		},
+		"defense" : 14,
+		"fightValue" : 161,
+		"graphics" :
+		{
+			"animation" : "regna/battle/Fighter.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/Fighter.def",
+			"iconSmall" : "regna/iconsSmall/Fighter.bmp",
+			"iconLarge" : "regna/iconsBig/Fighter.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 3,
+		"hitPoints" : 110,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "TROGATTK.wav",
+			"defend": "TROGDFND.wav",
+			"killed": "TROGKILL.wav",
+			"move": "TROGMOVE.wav",
+			"wince": "TROGWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			
+                      "noRetalitation" :
+			{
+				"type" : "BLOCKS_RETALIATION",
+                        "subtype" : 1
+			},
+			"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 30
+			},
+			"generalDamageReduction" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : 0,
+				"val" : 30
+			
+			}
+		}
+	}
+}
+

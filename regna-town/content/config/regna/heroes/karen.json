@@ -1,0 +1,63 @@
+{
+	"karen" : 
+	{
+
+		"class" : "rtCaper",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Elissa",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/karen/spec-small.png",
+			"specialtyLarge" : "regna/heroes/karen/spec-large.png",
+			"large" : "regna/heroes/karen/portrait-large.png",
+			"small" : "regna/heroes/karen/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+
+		"army" :
+		[
+			{ "creature" : "ofCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "ofGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "ofPyro", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty": //estates
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "GENERATE_RESOURCE",
+						"subtype": "resource.gold",
+						"val": 350
+                    }
+				]
+			}
+		]
+	}
+}

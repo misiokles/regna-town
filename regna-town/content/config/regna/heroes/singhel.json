@@ -1,0 +1,63 @@
+{
+	"singhel" :
+	{
+		"class" : "rtCaper",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Fobos",
+			"biography" : "Chociaz posiada niezwykle jak na zombie umiejetnosci (a przede wszystkim potrafi myslec i planowac!). W Dejii uchodzil tylko za jednego z zolnierzy. Don Singhel przylaczyl sie do Kastore'a tak szybko jak tylko zdolal",
+			"specialty" :
+			{
+				"description" : "{Centaurus and Centaurus Warriors}\r\n\r\nIncreases Speed of any Centaurus or Centaurus Warriors by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Centaurus",
+				"name" : "Centaurus"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/singhel/spec-small.png",
+			"specialtyLarge" : "regna/heroes/singhel/spec-large.png",
+			"large" : "regna/heroes/singhel/portrait-large.png",
+			"small" : "regna/heroes/singhel/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+		"army" :
+		[
+			{ "creature" : "ofCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "ofGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "ofPyro", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		
+		"specialty": //mysticism
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SPELL_LEV",
+						"subtype": "spell.landMine",
+						"val": 10
+					}
+				]
+			}
+		]
+	}
+}
+

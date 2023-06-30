@@ -1,0 +1,65 @@
+{
+	"ofCyberDead":
+	{
+		"name" :
+		{
+			"plural" : "Rats",
+			"singular" : "Rat"
+		},
+		"advMapAmount" :
+		{
+			"max" : 40,
+			"min" : 10
+		},
+		"faction" : "regna",
+		"aiValue" : 75,
+		"attack" : 3,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 40
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 4,
+		"fightValue" : 75,
+		"graphics" :
+		{
+			"animation" : "regna/battle/CR199.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/guard.def",
+			"iconSmall" : "regna/iconsSmall/CPrS199F.bmp",
+			"iconLarge" : "regna/iconsBig/CPrL199B.bmp",
+			"timeBetweenFidgets" : 1
+                },
+		"growth" : 15,
+		"hitPoints" : 6,
+		"level" : 1,
+		"upgrades":
+		[
+			"ofCyberZombie"
+		],
+		"sound" :
+		{
+			"attack": "GBLNATTK.wav",
+			"defend": "GBLNDFND.wav",
+			"killed": "GBLNKILL.wav",
+			"move": "GBLNMOVE.wav",
+			"wince": "GBLNWNCE.wav"
+		},
+		"speed" : 4,
+		"abilities" :
+		{
+		"spellimmunityslow" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow"
+			
+			}
+
+		}
+	}
+}

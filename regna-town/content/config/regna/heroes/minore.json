@@ -1,0 +1,62 @@
+{
+	"minore" : 
+	{
+		"class" : "rtCaper",
+		"female" : false,
+"texts" :
+		{
+			"name" : "Medea",
+			"biography" : "Medea od zawsze lubila igrac umyslami wrogow, przez co zawsze potrafila wyjsc nawet z najgorszej opresji. Wygnana z rodzinnej Bracady za praktykowanie niedozwolonej magii, znalazla miejsce u boku Kastora, ktory docenil jej nietypowe zdolnosci mianujac ja na dowodce swojej armii.",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: ResurrectionHero can cast the Berserk spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Berserk",
+				"name" : "Berserk"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/minore/spec-small.png",
+			"specialtyLarge" : "regna/heroes/minore/spec-large.png",
+			"large" : "regna/heroes/minore/portrait-large.png",
+			"small" : "regna/heroes/minore/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"berserk"
+		],
+		"army" :
+		[
+			{ "creature" : "ofCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "ofGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "ofPyro", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty": //Berserk
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_PECULIAR_ENCHANT",
+						"subtype": "spell.berserk", //not sure how it will work, anyway
+						"addInfo": 0 //normal, like most of hereos
+					}
+				]
+			}
+		]
+	}
+}
+

@@ -1,0 +1,63 @@
+{
+	"tarkin" : 
+	{
+		"class" : "rtCaper",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Heraclitus",
+			"biography" : "Kiedys Heraclitus byl inzynierem na uslugach Eeofolu. Po przegranej wojnie z Erathia uciekl do Deyji, by tam spotkac Kastore'a budujacego swa armie. Zafascynowany technologia Starozytnych bez wahania przylaczyl sie do planu odbudowy Niebianskich Kuzni.",
+			"specialty" : 
+			{
+				"description" : "{Land Mine}\r\n\r\nCasts Land Mine with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Land Mine",
+				"name" : "Land Mine"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/tarkin/spec-small.png",
+			"specialtyLarge" : "regna/heroes/tarkin/spec-large.png",
+			"large" : "regna/heroes/tarkin/portrait-large.png",
+			"small" : "regna/heroes/tarkin/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"landMine"
+		],
+		"army" :
+		[
+			{ "creature" : "ofCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "ofGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "ofPyro", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		
+		"specialty": //mysticism
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SPELL_LEV",
+						"subtype": "spell.landMine",
+						"val": 10
+					}
+				]
+			}
+		]
+	}
+}
+
+

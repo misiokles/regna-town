@@ -1,0 +1,67 @@
+{
+	"ofPyro":
+	{
+		"name" :
+		{
+			"plural" : "Undines",
+			"singular" : "Undine"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "regna",
+		"aiValue" : 293,
+		"attack" : 9,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 260,
+		"graphics" :
+		{
+			"animation" : "regna/battle/pyro.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/pyro.def",
+			"iconSmall" : "regna/iconsSmall/pyro.bmp",
+			"iconLarge" : "regna/iconsBig/pyro.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"upgrades":
+		[
+			"ofPyromaniac"
+		],
+		"sound" :
+		{
+			"attack": "WELMATTK.wav",
+			"defend": "WELMDFND.wav",
+			"killed": "WELMKILL.wav",
+			"move": "WELMMOVE.wav",
+			"wince": "WELMWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+                     "abilities1":
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"abilities2":
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2
+			}
+		}
+	}
+}

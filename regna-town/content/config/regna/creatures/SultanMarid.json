@@ -1,0 +1,98 @@
+{
+	"rtSultanMarid":
+	{
+		"name" :
+		{
+			"plural" : "Sultan Marids",
+			"singular" : "Sultan Marid"
+		},
+		"advMapAmount" :
+		{
+
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "regna",
+		"aiValue" : 245,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 900
+		},
+		"damage" :
+		{
+			"max" : 24,
+			"min" : 16
+		},
+		"defense" : 14,
+		"fightValue" : 215,
+		"graphics" :
+		{
+			"animation" : "regna/battle/Warrior.def",
+			"map" : "regna/map/Warrior.def",
+			"iconSmall" : "regna/iconsSmall/Warrior.bmp",
+			"iconLarge" : "regna/iconsBig/Warrior.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+            "hasDoubleWeek": true,
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,  
+		"sound" :
+		{
+			"attack": "CALFATTK.wav",
+			"defend": "CALFDFND.wav",
+			"killed": "CALFKILL.wav",
+			"move": "CALFMOVE.wav",
+			"shoot": "CALFSHOT.wav",
+			"wince": "CALFWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.efreet",
+				"val" : 50
+			},
+			"hateArchAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.efreetSultan",
+				"val" : 50
+			},
+			"spellsLength" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 5
+			},
+			"randomSpellcaster" :
+			{
+				"type" : "RANDOM_SPELLCASTER",
+				"val" : 2
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"flying" :
+				{
+					"type" : "FLYING"
+				},
+	              "WaterImmunity" : 
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 0,
+			}
+		}
+	}
+}
+

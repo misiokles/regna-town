@@ -1,0 +1,68 @@
+{
+	"rtleviathan":
+	{
+		"name" :
+		{
+			"plural" : "Leviathans",
+			"singular" : "Leviathan"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "regna",
+		"aiValue" : 5642,
+		"attack" : 21,
+		"cost" :
+		{
+			"gold" : 2750,
+			"crystal" : 1
+		},
+		"damage" :
+		{
+			"max" : 65,
+			"min" : 35
+		},
+		"defense" : 21,
+		"fightValue" : 4435,
+		"graphics" :
+		{
+			"animation" : "regna/battle/CR209.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/7aa.def",
+			"iconSmall" : "regna/iconsSmall/CPrS209F.bmp",
+			"iconLarge" : "regna/iconsBig/CPrL209B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 175,
+		"level" : 7,
+		"upgrades":
+		[
+			"rtImperialLeviathan"
+		],
+		"sound" :
+		{
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"flying" :
+				{
+					"type" : "FLYING"
+				},
+	              "WaterImmunity" : 
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 0,
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"ofPyromaniac":
+	{
+		"name" :
+		{
+			"plural" : "Sirens",
+			"singular" : "Siren"
+		},
+		"faction" : "regna",		
+		"advMapAmount" :
+		{
+			 "min" : 10,
+			 "max" : 16
+		},
+		"level" : 4,
+		"attack" : 8,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 9
+		},
+		"growth" : 5,
+		"hitPoints" : 30,
+		"speed" : 5,
+		"fightValue" : 432,
+		"aiValue" : 449,
+		"cost" :
+		{
+			"gold" : 350
+		},
+		"hasDoubleWeek": true,
+		"doubleWide" : true,
+		"graphics" :
+		{
+			"animation" : "regna/battle/maniac.def",
+			"map" : "regna/map/maniac.def",
+			"iconSmall" : "regna/iconsSmall/maniac.bmp",
+			"iconLarge" : "regna/iconsBig/maniac.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.9,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+                       "attack": "WELMATTK.wav",
+			"defend": "WELMDFND.wav",
+			"killed": "WELMKILL.wav",
+			"move": "WELMMOVE.wav",
+			"wince": "WELMWNCE.wav"
+        },
+		"abilities" :
+		{
+			"whirlpoolProtection" : 
+			{ 
+				"type" : "WHIRLPOOL_PROTECTION", 
+				"propagator" : "HERO"
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"leane" : 
+	{
+		"class" : "rtCaper",
+		"female" : false,
+"texts" :
+		{
+			"name" : "Krayos",
+			"biography" : "undetermined.",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: ResurrectionHero can cast the Stone Skin spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Stone skin",
+				"name" : "Stone Skin"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "regna/heroes/leane/spec-small.png",
+			"specialtyLarge" : "regna/heroes/leane/spec-large.png",
+			"large" : "regna/heroes/leane/portrait-large.png",
+			"small" : "regna/heroes/leane/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"disguise"
+		],
+		"army" :
+		[
+			{ "creature" : "ofCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "ofGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "ofPyro", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty":
+		[
+			{
+				"bonuses":
+
+				[
+					{
+						"type": "SPECIAL_SPELL_LEV",
+						"subtype": "spell.stoneSkin",
+						"val": 5
+					}
+				]
+			}
+		]
+	}
+}

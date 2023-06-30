@@ -1,0 +1,82 @@
+{
+	"ofFootSoldier":
+	{
+		"name" :
+		{
+			"plural" : "Corsairs",
+			"singular" : "Corsair"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "regna",
+		"aiValue" : 198,
+		"attack" : 7,
+		"hasDoubleWeek" : true,
+         "cost" :
+		{
+			"gold" : 160
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 160,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "regna/battle/CR198.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/footsoldier.def",
+			"iconSmall" : "regna/iconsSmall/CPrS198F.bmp",
+			"iconLarge" : "regna/iconsBig/CPrL198B.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "regna/battle/projectile/SHOT198.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+
+		"growth" : 9,
+		"hitPoints" : 12,
+          "level" : 2,
+		"shots" : 12,
+		"sound" :
+		{
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+		"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 30
+                         },
+			"abilities2":
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2
+			}
+		}
+	}
+}

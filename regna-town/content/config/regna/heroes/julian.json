@@ -1,0 +1,60 @@
+{
+	"julian" :
+	{
+		"class" : "rtFilibuster",
+		"female" : false,
+		
+		"texts" :
+		{
+			"name" : "Zefiros",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Gorillas and Ferocious Gorillas}\r\n\r\nIncreases the Attack and Defence of any Gorillas or Ferocious Gorillas for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Gorillas",
+				"name" : "Gorillas"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/julian/spec-small.png",
+			"specialtyLarge" : "regna/heroes/julian/spec-large.png",
+			"large" : "regna/heroes/julian/portrait-large.png",
+			"small" : "regna/heroes/julian/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{ "creature" : "ofCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "ofGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "ofPyro", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty": //mysticism
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SPELL_LEV",
+						"subtype": "spell.landMine",
+						"val": 10
+					}
+				]
+			}
+		]
+	}
+}
+

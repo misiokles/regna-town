@@ -1,0 +1,65 @@
+{
+	"rtImperialLeviathan":
+	{
+		"name" :
+		{
+			"plural" : "Imperial Leviathans",
+			"singular" : "Imperial Leviathan"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "regna",
+		"aiValue" : 4000,
+		"attack" : 32,
+		"cost" :
+		{
+			"gold" : 5000,
+			"crystal" : 3
+		},
+		"damage" :
+		{
+			"max" : 65,
+			"min" : 35
+		},
+		"defense" : 28,
+		"fightValue" : 4635,
+		"graphics" :
+		{
+			"animation" : "regna/battle/CR210.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/7b.def",
+			"iconSmall" : "regna/iconsSmall/CPrS210F.bmp",
+			"iconLarge" : "regna/iconsBig/CPrL210B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 250,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "GODRATTK.wav",
+			"defend": "GODRDFND.wav",
+			"killed": "GODRKILL.wav",
+			"move": "GODRMOVE.wav",
+			"wince": "GODRWNCE.wav"
+                     
+		},
+		"speed" : 13,
+		"abilities" :
+		{
+			"flying" :
+			{
+				"type" : "FLYING"
+			},
+	        "WaterImmunity" : 
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 0
+			}
+		}
+	}
+}

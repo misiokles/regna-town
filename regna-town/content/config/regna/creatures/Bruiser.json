@@ -1,0 +1,75 @@
+{
+	"ofBruiser":
+	{
+		"name" :
+		{
+			"plural" : "Host Winds",
+			"singular" : "Host Wind"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "regna",
+		"aiValue" : 728,
+		"attack" : 14,
+		"hasDoubleWeek" : true,
+        "cost" : 
+		{
+			"gold" : 775
+		},
+		"damage" :
+		{
+			"max" : 18,
+			"min" : 15
+		},
+		"defense" : 10,
+		"fightValue" : 1091,
+		"graphics" :
+		{
+			"animation" : "regna/battle/CR204.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/bruiser.def",
+			"iconSmall" : "regna/iconsSmall/CPrS204F.bmp",
+			"iconLarge" : "regna/iconsBig/CPrL204B.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "regna/battle/projectile/SHOT208.DEF",
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+		"growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"shots" : 6,
+		"sound" :
+		{
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move": "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			}	
+		}	
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"ofSlaughterhouse" : {
+				"name" : "Slaughterhouse",
+				"creatures" : [[ "ofCyberDead" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"ofBarracks" : {
+				"name" : "Barracks",
+				"creatures" : [[ "ofGruntSoldier" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"ofFireBasin" : {
+				"name" : "Fire Basin",
+				"creatures" : [[ "ofPyro" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "regna/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"ofAirstrip" : {
+				"name" : "Airstrip",
+				"creatures" : [[ "ofSkyFighter" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "BAV" ]
+					}
+				}
+			},
+			"ofStingersPost" : {
+				"name" : "Stingers Post",
+				"creatures" : [[ "ofStringer" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VBB", "BBA" ]
+					}
+				}
+			},
+			"ofAncientRefinery" : {
+				"name" : "Ancient Refinery",
+				"creatures" : [[ "rtMarid" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"ofGarage" : {
+				"name" : "Garage",
+				"creatures" : [[ "rtleviathan" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "BBV", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

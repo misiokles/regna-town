@@ -1,0 +1,85 @@
+{
+	"rtMarid":
+	{
+		"name" :
+		{
+			"plural" : "Marids",
+			"singular" : "Marid"
+		},
+		"advMapAmount" :
+		{
+
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "regna",
+		"aiValue" : 245,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 900
+		},
+		"damage" :
+		{
+			"max" : 24,
+			"min" : 16
+		},
+		"defense" : 12,
+		"fightValue" : 215,
+		"graphics" :
+		{
+			"animation" : "regna/battle/Mecha.DEF",
+			"map" : "regna/map/Mecha.def",
+			"iconSmall" : "regna/iconsSmall/Mecha.bmp",
+			"iconLarge" : "regna/iconsBig/Mecha.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+            "hasDoubleWeek": true,
+		"growth" : 2,
+		"hitPoints" : 85,
+		"level" : 6,
+            "upgrades":
+		[
+			"rtSultanMarid"
+		],      
+		"sound" :
+		{
+			"attack": "GENIATTK.wav",
+			"defend": "GENIDFND.wav",
+			"killed": "GENIKILL.wav",
+			"move": "GENIMOVE.wav",
+			"wince": "GENIWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.efreet",
+				"val" : 50
+			},
+			"hateArchAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.efreetSultan",
+				"val" : 50
+			},
+			"flying" :
+				{
+					"type" : "FLYING"
+				},
+	              "WaterImmunity" : 
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 0,
+			}
+		}
+	}
+}

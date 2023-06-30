@@ -1,0 +1,58 @@
+{
+	"sunni" : 
+	{
+		"class" : "rtFilibuster",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Apraksiya",
+			"biography" : "Rodzina Apraksiya od pokolen mieszka w Deyji. Sunnir od dziecka marzyla o odkrywaniu swiata i o dokonywaniu wielkich czynow, jednak jako goblin mogla pelnic u nekromantow role co najwyzej niepozbawionej wlasnej woli sluzacej. Natomiast brak doswiadczenia w walce sprawia, ze nigdy by nie zdobyla szacunku wsrod goblinow z Krewlodu. Dolaczenie do armii Kastore'a to dla niej doskonala okazja zeby udowodnic swoja wartosc.",
+			"specialty" :
+			{
+				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/sunni/spec-small.png",
+			"specialtyLarge" : "regna/heroes/sunni/spec-large.png",
+			"large" : "regna/heroes/sunni/portrait-large.png",
+			"small" : "regna/heroes/sunni/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ofCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "ofGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "ofPyro", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}
+		],
+		
+		"specialty": //scouting
+		[
+			{
+				"growsWithLevel" : true,
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SECONDARY_SKILL",
+						"subtype": "skill.scouting",
+						"val": 5
+					}
+				]
+			}
+		]
+	}
+}

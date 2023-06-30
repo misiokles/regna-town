@@ -1,0 +1,104 @@
+{
+	"rtNaiad":
+	{
+		"name" :
+		{
+			"plural" : "Mercenarys",
+			"singular" : "Mercenary"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "regna",
+		"aiValue" : 5931,
+		"attack" : 5,
+		"doubleWide" : false,
+                "cost" :
+		{
+			"gold" : 160
+		},
+		"damage" :
+		{
+			"max" : 16,
+			"min" : 13
+		},
+		"defense" : 5,
+		"fightValue" : 5272,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "regna/battle/naiad.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/footsoldier.def",
+			"iconSmall" : "regna/iconsSmall/naiad.bmp",
+			"iconLarge" : "regna/iconsBig/naiad.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "regna/battle/projectile/SHOT198.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+
+		"growth" : 9,
+		"hitPoints" : 50,
+                "level" : 0,
+		"shots" : 25,
+		"sound" :
+		{
+			
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move": "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 2
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectWater",
+				"val" : 3
+                  },
+                  "noMind":
+                  {
+                   "type": "MIND_IMMUNITY"
+			}
+		}
+	}
+}

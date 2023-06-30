@@ -1,0 +1,66 @@
+{
+	"name" : "Regna",
+	"description" : "Regna Town Restored for V 0.99",
+	"author" : "Baronus, Acidchalk",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "0.007",
+	"modType" : "Town",
+
+	"factions" :
+	[
+		"config/regna/town/buildings.json",
+		"config/regna/town/faction.json",
+		"config/regna/town/siege.json",
+		"config/regna/town/spells.json",
+		"config/regna/town/structures.json",
+		"config/regna/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/regna/creatures/CyberDead.json",
+		"config/regna/creatures/CyberZombie.json",
+                "config/regna/creatures/GruntSoldier.json",
+		"config/regna/creatures/FootSoldier.json",
+		"config/regna/creatures/Pyro.json",
+		"config/regna/creatures/Pyromaniac.json",
+		"config/regna/creatures/SkyFighter.json",
+		"config/regna/creatures/SkyHunter.json",
+		"config/regna/creatures/Stringer.json",
+		"config/regna/creatures/Bruiser.json",
+		"config/regna/creatures/Marid.json",
+		"config/regna/creatures/SultanMarid.json",
+		"config/regna/creatures/leviathan.json",
+		"config/regna/creatures/ImperialLeviathan.json",
+		"config/regna/creatures/Naiad.json",
+		
+	],
+	"heroClasses" :
+	[
+		"config/regna/classes/Filibuster.json",
+		"config/regna/classes/Caper.json"
+
+	],
+
+	"heroes" :
+	[
+		"config/regna/heroes/seprinteer.json",
+		"config/regna/heroes/julian.json",
+		"config/regna/heroes/Meltes.json",
+		"config/regna/heroes/singhel.json",
+		"config/regna/heroes/niclas.json",
+		"config/regna/heroes/charity.json",
+		"config/regna/heroes/sunni.json",
+		"config/regna/heroes/kastore.json",
+		"config/regna/heroes/rengist.json",
+		"config/regna/heroes/minore.json",
+		"config/regna/heroes/leane.json",
+		"config/regna/heroes/tarkin.json",
+		"config/regna/heroes/maximus.json",
+		"config/regna/heroes/cistrict.json",
+		"config/regna/heroes/karen.json",
+		"config/regna/heroes/resurrecta.json",
+		
+	],
+	"objects" : [ "config/regna/dwellings" ]
+}
