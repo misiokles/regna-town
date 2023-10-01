@@ -6,12 +6,12 @@
 		"texts" :
 		{
 			"name" : "Fobos",
-			"biography" : "Chociaz posiada niezwykle jak na zombie umiejetnosci (a przede wszystkim potrafi myslec i planowac!). W Dejii uchodzil tylko za jednego z zolnierzy. Don Singhel przylaczyl sie do Kastore'a tak szybko jak tylko zdolal",
+			"biography" : "",
 			"specialty" :
 			{
-				"description" : "{Centaurus and Centaurus Warriors}\r\n\r\nIncreases Speed of any Centaurus or Centaurus Warriors by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
-				"tooltip" : "Creature Bonus: Centaurus",
-				"name" : "Centaurus"
+				"description" : "",
+				"tooltip" : "",
+				"name" : ""
 			}
 		}, 
 		"images" :
@@ -46,18 +46,8 @@
 		],
 		
 		"specialty": //mysticism
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SPELL_LEV",
-						"subtype": "spell.landMine",
-						"val": 10
-					}
-				]
-			}
-		]
+		{
+		}
 	}
 }
 

@@ -6,12 +6,12 @@
 		"texts" :
 		{
 			"name" : "Apraksiya",
-			"biography" : "Rodzina Apraksiya od pokolen mieszka w Deyji. Sunnir od dziecka marzyla o odkrywaniu swiata i o dokonywaniu wielkich czynow, jednak jako goblin mogla pelnic u nekromantow role co najwyzej niepozbawionej wlasnej woli sluzacej. Natomiast brak doswiadczenia w walce sprawia, ze nigdy by nie zdobyla szacunku wsrod goblinow z Krewlodu. Dolaczenie do armii Kastore'a to dla niej doskonala okazja zeby udowodnic swoja wartosc.",
+			"biography" : "",
 			"specialty" :
 			{
-				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
-				"tooltip" : "Secondary Skill Bonus: Scouting",
-				"name" : "Scouting"
+				"description" : "",
+				"tooltip" : "",
+				"name" : ""
 			}
 		},
 		"images" :
@@ -40,19 +40,9 @@
 			}
 		],
 		
-		"specialty": //scouting
-		[
-			{
-				"growsWithLevel" : true,
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SECONDARY_SKILL",
-						"subtype": "skill.scouting",
-						"val": 5
-					}
-				]
-			}
-		]
+		"specialty":
+		{
+			
+		}
 	}
 }

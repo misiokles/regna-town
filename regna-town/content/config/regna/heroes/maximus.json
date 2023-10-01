@@ -6,12 +6,12 @@
 		"texts" :
 		{
 			"name" : "Maximus",
-			"biography" : "Niewiele wiadomo o prawej rece krola Deyji - kraza plotki, ze jego twarz zostala zdeformowana przez technologie Niebianskiej Kuzni. Nikt jednak nie moze podwazyc jego mistrzowskich wrecz zdolnosci taktycznych.",
+			"biography" : "",
 			"specialty" :
 			{
-				"description" : "{Tactics}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
-				"tooltip" : "Secondary Skill Bonus: Tactics",
-				"name" : "Tactics"
+				"description" : "",
+				"tooltip" : "",
+				"name" : ""
 			}
 		},
 		"images" :
@@ -39,19 +39,8 @@
 			}
 		],
 		
-		"specialty": //Tactics
-		[
-			{
-				"growsWithLevel" : true,
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SECONDARY_SKILL", //give 5% to this skill with each level
-						"subtype": "skill.tactics",
-						"val": 5
-					}
-				]
-			}
-		]
+		"specialty":
+		{
+		}
 	}
 }

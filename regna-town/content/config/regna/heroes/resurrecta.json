@@ -3,15 +3,15 @@
 	{
 		"class" : "rtCaper",
 		"female" : true,
-                 "texts" :
+        "texts" :
 		{
 			"name" : "Minze",
-			"biography" : "Minze nie chce wyjawic nikomu swojego pochodzenia. Planuje odtworzyc system bram Starozytnych. Jest jedna z niewielu osob, ktore znaly Kastore'a przed jego ekspansja na Antadarich i byc moze jedyna, ktora moze go powstrzymac.",
+			"biography" : "",
 			"specialty" : 
 			{
-				"description" : "Spell Bonus: ResurrectionHero can cast the Resurrection spell with increased effectiveness",
-				"tooltip" : "Spell Bonus: Resurrection",
-				"name" : "Resurrection"
+				"description" : "",
+				"tooltip" : "",
+				"name" : ""
 			}
 		},
 
@@ -46,18 +46,7 @@
 		],
 		
 		"specialty":
-		[
-			{
-				"bonuses":
-
-				[
-					{
-						"type": "SPECIAL_SPELL_LEV",
-						"subtype": "spell.resurrection",
-						"val": 5
-					}
-				]
-			}
-		]
+		{
+		}
 	}
 }

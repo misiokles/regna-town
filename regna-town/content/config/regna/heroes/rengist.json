@@ -6,12 +6,12 @@
 		"texts" :
 		{
 			"name" : "Taurus",
-			"biography" : "Jego bratem byl Winston Boragus. Po dojsciu do wladzy Kilgora, Rengist zdal sobie sprawe, ze jesli nie chce podzielic losu swojego brata, to musi opuscic Krewlod. Zdecydowal sie dolaczyc do tworzonej przez Kastore'a armii, liczac na to, ze z pomoca nowej technologii uda mu sie pomscic brata.", 
+			"biography" : "", 
 			"specialty" :
 			{
-				"description" : "{Minotaurs and Minotaurs Lords}\r\n\r\nIncreases Speed of any Minotaurs or Minotaurs Lords by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
-				"tooltip" : "Creature Bonus:  Minotaurs",
-				"name" : "Minotaurs"
+				"description" : "",
+				"tooltip" : "",
+				"name" : ""
 			}
 		},
 		"images" :
@@ -41,18 +41,8 @@
 		],
 		
 		"specialty": //mysticism
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SPELL_LEV",
-						"subtype": "spell.landMine",
-						"val": 10
-					}
-				]
-			}
-		]
+		{
+		}
 	}
 }
 

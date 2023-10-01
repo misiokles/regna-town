@@ -6,12 +6,12 @@
 		"texts" :
 		{
 			"name" : "Meya",
-			"biography" : "Meya w mlodosci uczestniczyl w wielu wyprawach wraz z innymi goblinami z Krewlod. W czasie jednej z nich znalazl, ukryty w glebokiej jaskini, miotacz. Bardzo szybko nauczyl sie go obslugiwac. Dzierzac swoja nowa bron mogl wedrowac dokad tylko chcial, bo zaden potwor nie byl dla niego wystarczajacym wyzwaniem. Naturalnym bylo, ze wstapil do armii Kastore'a jako wysokiej rangi przywodca.", 
+			"biography" : "", 
 			"specialty" :
 			{
-				"description" : "{Furys and Witch Furys}\r\n\r\nIncreases Speed of any Furys or Witch Furys by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
-				"tooltip" : "Creature Bonus: Furys",
-				"name" : "Furys"
+				"description" : "",
+				"tooltip" : "",
+				"name" : ""
 			}
 		},
 		"images" :
@@ -45,19 +45,9 @@
 			}
 		],
 		
-		"specialty": //mysticism
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SPELL_LEV",
-						"subtype": "spell.landMine",
-						"val": 10
-					}
-				]
-			}
-		]
+		"specialty":
+		{
+		}
 	}
 }
 

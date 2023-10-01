@@ -10,9 +10,9 @@
 			"biography" : "undetermined",
 			"specialty" :
 			{
-				"description" : "{Crystal + 1}\r\n\r\nIncreases kingdom's income by 1 crystal per day",
-				"tooltip" : "+1 Crystal each day",
-				"name" : "+1 Crystals"
+				"description" : "",
+				"tooltip" : "",
+				"name" : ""
 			}
 		},
 		"images" :
@@ -42,18 +42,9 @@
 			}
 		],
 		
-		"specialty": //estate bonus
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "GENERATE_RESOURCE",
-						"subtype": "resource.crystal",
-						"val": 1
-					}
-				]
-			}
-		]
+		"specialty":
+		{
+			
+		}
 	}
 }

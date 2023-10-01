@@ -3,15 +3,15 @@
 	{
 		"class" : "rtCaper",
 		"female" : false,
-"texts" :
+		"texts" :
 		{
 			"name" : "Medea",
-			"biography" : "Medea od zawsze lubila igrac umyslami wrogow, przez co zawsze potrafila wyjsc nawet z najgorszej opresji. Wygnana z rodzinnej Bracady za praktykowanie niedozwolonej magii, znalazla miejsce u boku Kastora, ktory docenil jej nietypowe zdolnosci mianujac ja na dowodce swojej armii.",
+			"biography" : "",
 			"specialty" : 
 			{
-				"description" : "Spell Bonus: ResurrectionHero can cast the Berserk spell with increased effectiveness",
-				"tooltip" : "Spell Bonus: Berserk",
-				"name" : "Berserk"
+				"description" : "",
+				"tooltip" : "",
+				"name" : ""
 			}
 		},
 		"images" :
@@ -45,18 +45,8 @@
 		],
 		
 		"specialty": //Berserk
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_PECULIAR_ENCHANT",
-						"subtype": "spell.berserk", //not sure how it will work, anyway
-						"addInfo": 0 //normal, like most of hereos
-					}
-				]
-			}
-		]
+		{
+		}
 	}
 }
 
