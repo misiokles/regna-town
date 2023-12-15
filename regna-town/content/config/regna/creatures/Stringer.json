@@ -71,7 +71,7 @@
 		"speed" : 5,
 		"abilities" :
 		{
-                     "canshoot" :
+        "canshoot" :
 			{
 				"type" : "SHOOTER"
 			}

@@ -77,8 +77,8 @@
 				},
 	              "WaterImmunity" : 
 			{
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 0,
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "water",
 			}
 		}
 	}

@@ -47,7 +47,7 @@
 		},
 		"sound" :
 		{
-                       "attack": "WELMATTK.wav",
+            "attack": "WELMATTK.wav",
 			"defend": "WELMDFND.wav",
 			"killed": "WELMKILL.wav",
 			"move": "WELMMOVE.wav",

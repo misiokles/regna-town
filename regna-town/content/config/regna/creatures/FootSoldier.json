@@ -74,8 +74,9 @@
                          },
 			"abilities2":
 			{
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 2
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 100
 			}
 		}
 	}

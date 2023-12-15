@@ -53,14 +53,15 @@
 		"speed" : 6,
 		"abilities" :
 		{
-                     "abilities1":
+            "abilities1":
 			{
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
 			"abilities2":
 			{
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 2
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 100
 			}
 		}
 	}
