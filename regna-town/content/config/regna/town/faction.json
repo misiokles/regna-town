@@ -2,62 +2,61 @@
 	"regna" : {
 		"alignment" : "evil",
 		"creatureBackground" : { "120px" : "regna/creature-bg-120px", "130px" : "regna/creature-bg-130px" },
-		"name" : "Regna",
+		"name" : "双屿",
 		"boat" : "boatNecropolis",
 		"nativeTerrain" : "swamp",
 		"town" :
 		{
-			"musicTheme" : "music/regna/theme",
+			"musicTheme" : ["music/regna/theme"],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
 			"townBackground": "regna/town-screen/background",
 			"guildWindow": "regna/town-screen/mage-guild",
-			"hallBackground": "TPTHBKFR",
+			"hallBackground": "TPTHBKTW",
 			"hallSlots":
 			[
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
-				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4"  ], [ "shipyard" ] ],
-				[ [ "special2" ], [ "special1" ], [ "special3" ] ],
-				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special1" ], [ "shipyard" ] ],
+				[ [ "special2"], ["special3" ], [ "horde1", "horde1Upg" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3"], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
 				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ],  ]
 			],
 			"creatures" :
 			[
-				[ "ofCyberDead", "ofCyberZombie" ],
-				[ "ofGruntSoldier", "ofFootSoldier" ],
-				[ "ofPyro", "ofPyromaniac" ],
-				[ "ofSkyFighter", "ofSkyHunter" ],
-				[ "ofStringer", "ofBruiser" ],
-				[ "rtMarid", "rtSultanMarid"],
-				[ "rtleviathan", "rtImperialLeviathan" ]
+				[ "triton1", "triton2" ],
+				[ "undine1", "undine2" ],				
+				[ "crab1", "crab2" ],
+				[ "siren1", "siren2" ],					
+				[ "octo1", "octo2" ],
+				[ "seabishop1", "seabishop2"],
+				[ "leviathan1", "leviathan2" ]
 			],
-			"moatAbility" : "necropolisMoat",
-			"horde" : [ 1 , -1],
+            "moatAbility":"regnaMoat",
+			"horde" : [ 1, 1 ],
 			"mageGuild" : 5,
-			"primaryResource" : "crystal",
-			"warMachine" : "ballista",
+			"primaryResource" : "sulfur",
 			"buildingsIcons" : "regna/town-hall.def",
 			"icons" :
 			{
 				"village" : {
 					"normal" : {
-						"small" : "regna/icons/hall-small.png",
-						"large" : "regna/icons/hall-big.png"
+						"small" : "regna/icons/hall-small.bmp",
+						"large" : "regna/icons/hall-big.bmp"
 					},
 					"built" : {
-						"small" : "regna/icons/hall-builded-small.png",
-						"large" : "regna/icons/hall-builded-big.png"
+						"small" : "regna/icons/hall-builded-small.bmp",
+						"large" : "regna/icons/hall-builded-big.bmp"
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "regna/icons/fort-small.png",
-						"large" : "regna/icons/fort-big.png"
+						"small" : "regna/icons/fort-small.bmp",
+						"large" : "regna/icons/fort-big.bmp"
 					},
 					"built" : {
-						"small" : "regna/icons/fort-builded-small.png",
-						"large" : "regna/icons/fort-builded-big.png"
+						"small" : "regna/icons/fort-builded-small.bmp",
+						"large" : "regna/icons/fort-builded-big.bmp"
 					}
 				}
 			},
@@ -71,31 +70,29 @@
 				"templates" : {
 					"capitol" : { "animation" : "regna/adventure-map/town-capitol.def" },
 					"castle" : { "animation" : "regna/adventure-map/town-castle.def" },
-					"citadel" : { "animation" : "regna/adventure-map/town-castle.def" },
-					"fort" : { "animation" : "regna/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "regna/adventure-map/town-citadel.def" },
+					"fort" : { "animation" : "regna/adventure-map/town-citadel.def" },
 					"village" : { "animation" : "regna/adventure-map/town-village.def" }
 				}
 			},
 			"names" :
 			[
-				"Toxic Desert",
-				"Toxic Castle",
-				"Xanadu",
-				"Hangval",
-				"Jalina",
-				"Firios",
-				"Windhaven",
-				"Bathiere",
-				"Spring Falls",
-				"Gem Moor",
-				"Willow",
-				"New Forest",
-				"New Elfwind",
-				"Wenlan",
-				"Vintyl",
-				"Sylina",
-				"Hallin",
-				"Rael"
+			"阿卡隆",
+			"伊拉迪亚",
+			"亚特兰蒂斯",
+			"伊卡特雷斯",
+			"欧森努尔",
+			"菲拉魁斯",
+			"费蒙尼亚",
+			"海德摩斯",
+			"阿比西斯",
+			"萨菲罗斯",
+			"桑克莱斯",
+			"伊诺里亚",
+			"阿斯瑞斯",
+			"塞莱斯廷",
+			"卡德隆",
+			"伊斯卡德隆"
 			],
 			"tavern" :
 			{
@@ -117,8 +114,8 @@
 				"witch"        : 4,
 				"planeswalker" : 4,
 				"elementalist" : 4,
-				"rtFilibuster"    : 5,
-				"rtCaper"    : 5
+				"manowar"      : 5,
+				"admiral"      : 5
 			}
 		}
 	}

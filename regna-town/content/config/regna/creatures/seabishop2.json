@@ -1,0 +1,161 @@
+{
+	"seabishop2":
+	{
+		"name" :
+		{
+			"plural" : "海卜师",
+			"singular" : "海卜师"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "regna",
+		"aiValue" : 2056,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+		"damage" :
+		{
+			 "max" : 22,
+			 "min" : 15
+		},
+		"defense" : 15,
+		"fightValue" : 1785,
+		"graphics" :
+		{
+			"animation" : "regna/battle/seabishop2.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/seabishop2mini.def",
+			"iconSmall" : "regna/iconsSmall/seabishop2s.bmp",
+			"iconLarge" : "regna/iconsBig/seabishop2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+     			"projectile" : "PMAGEX.DEF",	
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},			
+		},
+		
+		"growth" : 2,
+		"hitPoints" : 85,
+		"level" : 6,
+		"sound" :
+		{
+			"attack" : "regna/seaatk.wav",
+			"shoot": "ZELTSHOT.wav",			
+			"defend" : "regna/seaatk.wav",
+			"killed": "MONKKILL.wav",
+			"move": "regna/blank.wav",
+			"startMoving": "regna/movestart.wav",
+			"endMoving": "regna/moveend.wav",			
+			"wince": "PIKEWNCE.wav"               
+		},
+		"speed" : 12,
+		"abilities" : 
+		{
+            "canFly" : 
+			{
+			    "type" : "FLYING"
+			},
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 20
+			},
+			"waterResistance" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.protectWater",
+				"val" : 2
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SHOOTER"
+				},
+				"values" : [ true, true, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NO_MELEE_PENALTY"
+				},
+				"values" : [ true, true, true, true, true, true, true, true, true, true ]
+			},
+			{ 
+				"bonus" : 
+				{ 
+					"type" : "SHOTS" 
+				}, 
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] 
+			}
+		]
+	}
+}

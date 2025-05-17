@@ -1,0 +1,59 @@
+{
+	"undine" : 
+	{
+		"class" : "manowarf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "温蒂妮",
+			"biography" : "闪光的温蒂妮是精灵加拉斯最好的学生之一。她不仅掌握了射箭技巧，还掌握了指挥战争的智慧。随着时间的流逝，她在族人中的权威变得无可争辩。在她的指挥下，她们总是表现出优秀的士气。敏锐的头脑和天生的狡猾让温蒂妮证明自己是不可或缺的侦察员。很长一段时间里，伊莉雅妮斯在他的大陆战争中不需要为这个位置寻找其他人选。",
+			"specialty" :
+			{
+				"tooltip" : "生物强化：海精灵射手",
+				"name" : "海精灵射手",
+				"description" : "达到2级以后提高海精灵射手或海神射手的攻击力与防御力。"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/undine/spec-small.png",
+			"specialtyLarge" : "regna/heroes/undine/spec-large.png",
+			"large" : "regna/heroes/undine/portrait-large.png",
+			"small" : "regna/heroes/undine/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "undine1"
+		}	
+	}
+}

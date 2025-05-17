@@ -1,0 +1,70 @@
+{
+	"maridis" :
+	{
+		"class" : "admiral",
+		"texts" :
+		{
+			"name" : "马瑞迪斯",
+			"biography" : "作为海德隆的四名学生之一，也是他的图书馆创始人之一，马瑞迪斯在恢复法力的技艺方面确实达到了完美。他最渴望的是有一天能找到恢复法力的魔法钥匙。这个钥匙是由利维坦创建的，并命名为海洋之珠。事实上，他知道世上有这样一把钥匙，是多年前从老师那里学到的，他并没有放弃去找到这把钥匙的想法。毕竟，如果能够成功，那么法力就永远不会耗尽。", 
+			"specialty" :
+			{
+				"tooltip" : "技能加成：神秘术",
+				"description" : "在神秘术上每级得到5%的额外奖励。",
+				"name" : "神秘术"
+			}
+		},		
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/maridis/spec-small.png",
+			"specialtyLarge" : "regna/heroes/maridis/spec-large.png",
+			"large" : "regna/heroes/maridis/portrait-large.png",
+			"small" : "regna/heroes/maridis/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"bless"
+		],
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

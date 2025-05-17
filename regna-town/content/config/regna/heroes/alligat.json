@@ -1,0 +1,59 @@
+{
+	"alligat" :
+	{
+		"class" : "manowar",
+		"texts" :
+		{
+			"name" : "爱尔尼加",
+			"biography" : "在最后引起螃蟹种族代表人物爱尔尼加的注意之前，瑞文长期为他的使命寻求一名优秀的指挥官。尽管螃蟹因难以控制而闻名，但爱尔尼加证明他的方式非常合理。在他的指挥下的螃蟹特别强壮和有纪律。所有这些都使得爱尔尼加成为瑞文在未来大陆战争中的得力指挥官之一。",
+			"specialty" :
+			{
+				"tooltip" : "生物强化：巨蟹",
+				"name" : "巨蟹",
+				"description" : "达到3级以后提高巨蟹或铁甲巨蟹的攻击力与防御力。"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/alligat/spec-small.png",
+			"specialtyLarge" : "regna/heroes/alligat/spec-large.png",
+			"large" : "regna/heroes/alligat/portrait-large.png",
+			"small" : "regna/heroes/alligat/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "crab1"
+		}	
+	}
+}

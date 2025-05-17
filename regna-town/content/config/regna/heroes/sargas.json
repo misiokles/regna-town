@@ -1,0 +1,70 @@
+{
+	"sargas" :
+	{
+		"class" : "manowar",
+		"texts" :
+		{
+			"name" : "萨尔加斯",
+			"biography" : "萨尔加斯长期以来一直研究导航和情报的基础知识，并取得了相当的成功。巧妙地利用他的知识，他成功地控制了大量的海盗飞地。了解到这一点，总司令瑞文邀请他加入他的战争，负责部队的海上行动。",
+			"specialty" : 
+			{
+				"tooltip" : "技能加成：航海术",
+				"name" : "航海术",
+				"description" : "在航海术上每级得到5%的额外奖励。"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/sargas/spec-small.png",
+			"specialtyLarge" : "regna/heroes/sargas/spec-large.png",
+			"large" : "regna/heroes/sargas/portrait-large.png",
+			"small" : "regna/heroes/sargas/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" :  {
+			"bonuses" : {
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementSea",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+

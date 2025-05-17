@@ -1,0 +1,63 @@
+{
+	"aquaron" :
+	{
+		"class" : "admiral",
+		"texts" :
+		{
+			"name" : "阿夸隆",
+			"biography" : "海洋主教阿夸隆是水魔法界最好的传承人之一。他是研究水魔法实际应用的海洋主教协会的创始人。他在水祭部门花了很多时间，在海洋主教中赢得了很高的信誉。在他的指挥下进行的战斗中，水卜师成为一支强大的力量。",
+			"specialty" :
+			{
+				"tooltip" : "生物强化：水卜师",
+				"name" : "水卜师",
+				"description" : "达到6级以后提高水卜师或海卜师的攻击力与防御力。"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/aquaron/spec-small.png",
+			"specialtyLarge" : "regna/heroes/aquaron/spec-large.png",
+			"large" : "regna/heroes/aquaron/portrait-large.png",
+			"small" : "regna/heroes/aquaron/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "seabishop1"
+		}	
+	}
+}
+

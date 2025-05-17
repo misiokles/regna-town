@@ -1,0 +1,123 @@
+{
+	"crab2":
+	{
+		"name" :
+		{
+			"plural" : "铁甲巨蟹",
+			"singular" : "铁甲巨蟹"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "regna",
+		"aiValue" : 281,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 225
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 3
+		},
+		"defense" : 12,
+		"fightValue" : 288,
+		"graphics" :
+		{
+			"animation" : "regna/battle/crab2.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/crab2mini.def",
+			"iconSmall" : "regna/iconsSmall/crab2s.bmp",
+			"iconLarge" : "regna/iconsBig/crab2l.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"growth" : 6,
+	    "doubleWide" : true,			
+		"hitPoints" : 30,
+        "level" : 3,
+		"abilities" :
+		{
+			"KING1" :
+			{
+				"type" : "KING",
+				"val" : 0
+			},
+			"generalDamageReduction" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" : 25
+            },
+			"airShield":
+			{
+				"type":"GENERAL_DAMAGE_REDUCTION",
+				"subtype": "damageTypeRanged",
+				"val" : 25
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 2]
+			}
+		],		
+		"sound" :
+		{
+			"attack" : "regna/crabatk.wav",
+			"defend" : "regna/crabblk.wav",
+			"killed" : "regna/crabdie.wav",
+			"move": "regna/crabwlk.wav",
+			"wince" : "regna/crabhit.wav"
+		},
+		"speed" : 5
+	}
+}

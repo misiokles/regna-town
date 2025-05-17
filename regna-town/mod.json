@@ -1,20 +1,23 @@
 {
 	"name" : "Regna",
-	"description" : "Regna Town Restored for V 0.99",
-	"author" : "Baronus, Acidchalk",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "0.009",
+	"description" : "Regna Town",
+	"author" : "Ganymed, Necronix, Deo. VCMI port acidchalk.",
+	"contact" : "http://storm-team.3dn.ru/index/regna_description/0-26",
+	"version" : "1.04",
 	"modType" : "Town",
 	"changelog" :
-	{
-		"0.009"   : [ "Update to vcmi-1.4 format" ],
-		"0.008"   : [ "Update to vcmi-1.3.2 format" ],
-		"0.007"   : [ "Initial release" ]
-	},	
-	"compatibility" :
-	{
-		"min" : "1.4.0"
-	},	
+    {
+		"1.04"   : [ "Special buildings support" ],
+		"1.03"   : [ "Another fixes" ],
+		"1.02"   : [ "Some missing buildings" ],
+		"1.01"   : [ "New hero specialty format", "Bugfixes" ],
+		"1.0"   : [ "Initial release" ]
+    },
+	"language": "chinese",
+	"chinese": {
+		"name": "双屿",
+		"description": "新城镇双屿。"
+	},
 	"factions" :
 	[
 		"config/regna/town/buildings.json",
@@ -27,49 +30,51 @@
 	],
 	"creatures" :
 	[
-		"config/regna/creatures/CyberDead.json",
-		"config/regna/creatures/CyberZombie.json",
-                "config/regna/creatures/GruntSoldier.json",
-		"config/regna/creatures/FootSoldier.json",
-		"config/regna/creatures/Pyro.json",
-		"config/regna/creatures/Pyromaniac.json",
-		"config/regna/creatures/SkyFighter.json",
-		"config/regna/creatures/SkyHunter.json",
-		"config/regna/creatures/Stringer.json",
-		"config/regna/creatures/Bruiser.json",
-		"config/regna/creatures/Marid.json",
-		"config/regna/creatures/SultanMarid.json",
-		"config/regna/creatures/leviathan.json",
-		"config/regna/creatures/ImperialLeviathan.json",
-		"config/regna/creatures/Naiad.json"
-		
+		"config/regna/creatures/triton1.json",
+		"config/regna/creatures/triton2.json",
+		"config/regna/creatures/undine1.json",
+		"config/regna/creatures/undine2.json",
+		"config/regna/creatures/octo1.json",
+		"config/regna/creatures/octo2.json",
+		"config/regna/creatures/crab1.json",
+		"config/regna/creatures/crab2.json",		
+		"config/regna/creatures/crab3.json",		
+		"config/regna/creatures/yachtswoman.json",		
+		"config/regna/creatures/siren1.json",
+		"config/regna/creatures/siren2.json",		
+		"config/regna/creatures/seabishop1.json",
+		"config/regna/creatures/seabishop2.json",
+		"config/regna/creatures/leviathan1.json",
+		"config/regna/creatures/leviathan2.json"
 	],
 	"heroClasses" :
 	[
-		"config/regna/classes/Filibuster.json",
-		"config/regna/classes/Caper.json"
+		"config/regna/heroes/manowar.json",
+		"config/regna/heroes/manowarf.json",
+		"config/regna/heroes/admiral.json",		
+		"config/regna/heroes/admiralf.json"		
 
 	],
 
 	"heroes" :
 	[
-		"config/regna/heroes/seprinteer.json",
-		"config/regna/heroes/julian.json",
-		"config/regna/heroes/Meltes.json",
-		"config/regna/heroes/singhel.json",
-		"config/regna/heroes/niclas.json",
-		"config/regna/heroes/charity.json",
-		"config/regna/heroes/sunni.json",
-		"config/regna/heroes/kastore.json",
-		"config/regna/heroes/rengist.json",
-		"config/regna/heroes/minore.json",
-		"config/regna/heroes/leane.json",
-		"config/regna/heroes/tarkin.json",
-		"config/regna/heroes/maximus.json",
-		"config/regna/heroes/cistrict.json",
-		"config/regna/heroes/karen.json",
-		"config/regna/heroes/resurrecta.json"
-		
+		"config/regna/heroes/sargas.json",
+		"config/regna/heroes/alligat.json",		
+		"config/regna/heroes/klastrus.json",
+		"config/regna/heroes/undine.json",	
+		"config/regna/heroes/omega.json",
+		"config/regna/heroes/gallas.json",
+		"config/regna/heroes/raven.json",
+		"config/regna/heroes/illyanis.json",		
+		"config/regna/heroes/azul.json",
+	    "config/regna/heroes/aquaron.json",
+    	"config/regna/heroes/maridis.json",
+		"config/regna/heroes/marin.json",
+		"config/regna/heroes/aurora.json",
+	    "config/regna/heroes/stella.json",
+		"config/regna/heroes/sabrin.json",
+		"config/regna/heroes/midia.json"
 	],
-	"objects" : [ "config/regna/dwellings" ]
+	"objects" : [ "config/regna/dwellings" ],
+	"spells" : [ "config/regna/spells/moat.json" ]
 }

@@ -1,0 +1,70 @@
+{
+	"stella" :
+	{
+		"class" : "admiralf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "斯特拉",
+			"biography" : "斯特拉花了很多时间在图书馆探索漩涡沉船中的古代手稿。正是因为这个原因，她很快成为了一个强大的魔法师。她主要将学习重点放在了加速法术。听闻她的这些能力，瑞文在他的战争中授予她上将军衔。",
+			"specialty" :
+			{
+				"tooltip" : "魔法增强：攻击加速",
+				"name" : "攻击加速",
+				"description" : "使用攻击加速魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/stella/spec-small.png",
+			"specialtyLarge" : "regna/heroes/stella/spec-large.png",
+			"large" : "regna/heroes/stella/portrait-large.png",
+			"small" : "regna/heroes/stella/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"klastrus" :
+	{
+		"class" : "manowar",
+		"texts" :
+		{
+			"name" : "克拉斯特鲁斯",
+			"biography" : "克拉斯特鲁斯在海洋深处长大，但好奇地想知道水面以外的东西。尽管被他的同伴嘲笑，他不断尝试接近海岸。最后，这几乎让他失去了生命。他被巨大的海浪抛向岸边，几乎被烈日晒死。然而，他被瑞文麾下弓箭手部队的领导人温蒂妮所救。当她看到克拉斯特鲁斯躺在岸边了无生气的时候，她命令她的下属尽一切办法挽救这条可怜的章鱼。随着时间的推移，他开始学习防御武术和船舶运输方法。这很快让他成为合格的军事领袖，他不仅能够从沿海的海盗飞地获得贡献，而且能够领导他的部队参战。然而，瑞文并没有让他加入他的战争，但伊莉雅妮斯在温蒂妮的庇护下冒险带了他去，并没有后悔。",
+			"specialty" :
+			{
+				"tooltip" : "在防御术上每级得到5%的额外奖励。",
+				"description" : "技能加成：防御术",
+				"name" : "防御术"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/klastrus/spec-small.png",
+			"specialtyLarge" : "regna/heroes/klastrus/spec-large.png",
+			"large" : "regna/heroes/klastrus/portrait-large.png",
+			"small" : "regna/heroes/klastrus/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			}
+		],
+		
+		"specialty" :  {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

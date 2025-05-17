@@ -1,0 +1,59 @@
+{
+	"raven" :
+	{
+		"class" : "manowar",
+		"texts" :
+		{
+			"name" : "瑞文",
+			"biography" : "瑞文是一位意志坚强的指挥官和优秀的外交官。由于瑞文是海卫兵一族的本地人，他主张使用本族的士兵，他们爽快地回应了他。瑞文正面临着与大陆外交的艰巨任务。",
+			"specialty" :
+			{
+				"tooltip" : "生物强化：海卫兵",
+				"name" : "海卫兵",
+				"description" : "达到1级以后提高海卫兵或海卫士的攻击力与防御力。"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "regna/heroes/raven/spec-small.png",
+			"specialtyLarge" : "regna/heroes/raven/spec-large.png",
+			"large" : "regna/heroes/raven/portrait-large.png",
+			"small" : "regna/heroes/raven/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "triton1"
+		}	
+	}
+}

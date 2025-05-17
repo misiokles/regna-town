@@ -1,0 +1,59 @@
+{
+	"illyanis" :
+	{
+		"class" : "manowarf",
+		"female" : true,		
+		"texts" :
+		{
+			"name" : "伊莉雅妮斯",
+			"biography" : "伊莉雅妮斯是野生海妖的后裔。凭借她的血统，她不受他们的哭声影响，并认为他们是最好的士兵。后来海妖比风更快地执行她的任何命令。伊莉雅妮斯的主要特点是她微妙的战术风格和她对敌人的无情。",
+			"specialty" :
+			{
+				"tooltip" : "生物强化：海妖",
+				"name" : "海妖",
+				"description" : "达到4级以后提高海妖或恶魔海妖的攻击力与防御力。"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/illyanis/spec-small.png",
+			"specialtyLarge" : "regna/heroes/illyanis/spec-large.png",
+			"large" : "regna/heroes/illyanis/portrait-large.png",
+			"small" : "regna/heroes/illyanis/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "siren1"
+		}	
+	}
+}

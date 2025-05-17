@@ -1,76 +1,86 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"ofSlaughterhouse" : {
-				"name" : "Slaughterhouse",
-				"creatures" : [[ "ofCyberDead" ]],
+			"havTritonBarracks" : {
+				"name" : "海卫兵营",
+				"creatures" : [[ "triton1" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "regna/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVV", "VBV", "BAV" ]
 					}
 				}
 			},
-			"ofBarracks" : {
-				"name" : "Barracks",
-				"creatures" : [[ "ofGruntSoldier" ]],
-				"templates" : {
-					"default" : {
-						"animation" : "regna/adventure-map/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
-					}
-				}
-			},
-			"ofFireBasin" : {
-				"name" : "Fire Basin",
-				"creatures" : [[ "ofPyro" ]],
+			"havCrabNest" : {
+				"name" : "守望海湾",
+				"creatures" : [[ "crab1" ]],
 				"templates" : {
 					"default" : {	
-						"animation" : "regna/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"animation" : "regna/adventure-map/dwelling-2.def",
+						"mask" : [ "BBV", "BAV" ]
+					}
+				}
+			},			
+			"havSpiderCrabNest" : {
+				"name" : "蜘蛛蟹巢",
+				"creatures" : [[ "crab3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "regna/adventure-map/dwelling-8.def",
+						"mask" : [ "VBA" ]
 					}
 				}
 			},
-			"ofAirstrip" : {
-				"name" : "Airstrip",
-				"creatures" : [[ "ofSkyFighter" ]],
+			"havUndineTower" : {
+				"name" : "沿海据点",
+				"creatures" : [[ "undine1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"havSirensRoost" : {
+				"name" : "沿海石窟",
+				"creatures" : [[ "siren1" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "regna/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VBB", "BAV" ]
+						"mask" : [ "VVV", "VBV", "VAV" ]
 					}
 				}
 			},
-			"ofStingersPost" : {
-				"name" : "Stingers Post",
-				"creatures" : [[ "ofStringer" ]],
+			"havShrineofDepths" : {
+				"name" : "乌贼洞穴",
+				"creatures" : [[ "octo1" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "regna/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VBB", "BBA" ]
+						"mask" : [ "BBV", "VAV" ]
 					}
 				}
 			},
-			"ofAncientRefinery" : {
-				"name" : "Ancient Refinery",
-				"creatures" : [[ "rtMarid" ]],
+			"havHydronAcademy" : {
+				"name" : "风暴图书馆",
+				"creatures" : [[ "seabishop1" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "regna/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VBV", "VAB" ]
+						"mask" : [ "VVV", "VAB" ]
 					}
 				}
 			},
-			"ofGarage" : {
-				"name" : "Garage",
-				"creatures" : [[ "rtleviathan" ]],
+			"havLeviathanTemple" : {
+				"name" : "海龙神庙",
+				"creatures" : [[ "leviathan1" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "regna/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "BBV", "VBA" ]
+						"mask" : [ "VVV", "BBV", "BAV" ]
 					}
 				}
 			}

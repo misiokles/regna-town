@@ -1,0 +1,119 @@
+{
+	"leviathan1":
+	{
+		"name" :
+		{
+			"plural" : "利维坦",
+			"singular" : "利维坦"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "regna",
+		"aiValue" : 5062,
+		"attack" : 20,
+		"cost" :
+		{
+			"gold" : 2300
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"defense" : 18,
+		"fightValue" : 4100,
+		"graphics" :
+		{
+			"animation" : "regna/battle/leviathan1.DEF",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/leviathan1mini.def",
+			"iconSmall" : "regna/iconsSmall/leviathan1s.bmp",
+			"iconLarge" : "regna/iconsBig/leviathan1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 170,
+		"level" : 7,
+	    "doubleWide" : true,		
+		"upgrades":
+		[
+			"leviathan2"
+		],
+		"sound" :
+		{
+			"attack" : "regna/leviatk.wav",
+			"defend" : "regna/levihit.wav",
+			"killed" : "regna/levidie.wav",
+			"move" : "regna/leviwlk.wav",
+			"wince" : "regna/levihit.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"KING1" :
+			{
+				"type" : "KING",
+				"val" : 0
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 2]
+			}
+		]
+	}
+}

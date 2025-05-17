@@ -1,0 +1,67 @@
+{
+	"omegar" :
+	{
+		"class" : "manowarf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "欧米茄",
+			"biography" : "欧米茄在萨尔加斯麾下服役，一段时间后，她的战斗经验和对攻击技巧的掌握得到了他的青睐。尽管起初海巫们并不十分喜欢雄心勃勃的警笛声，但最终确信她的可靠性和奉献精神，所以推荐她到正在寻找指挥官在大陆发动战争的瑞文。",
+			"specialty" :
+			{
+				"tooltip" : "技能加成：进攻术",
+				"name" : "进攻术",
+				"description" : "在进攻术上每级得到5%的额外奖励。"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/omega/spec-small.png",
+			"specialtyLarge" : "regna/heroes/omega/spec-large.png",
+			"large" : "regna/heroes/omega/portrait-large.png",
+			"small" : "regna/heroes/omega/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "damageTypeMelee",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}

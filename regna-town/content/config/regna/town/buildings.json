@@ -7,8 +7,8 @@
 			{
 				"mageGuild1" :
 				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "1级魔法行会",
 					"cost" :
 					{
 						"wood" : 5,
@@ -19,8 +19,8 @@
 				},
 				"mageGuild2" :
 				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "2级魔法行会",
 					"cost" :
 					{
 						"wood" : 5,
@@ -36,8 +36,8 @@
 				},
 				"mageGuild3" :
 				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "3级魔法行会",
 					"cost" :
 					{
 						"wood" : 5,
@@ -53,8 +53,8 @@
 				},
 				"mageGuild4" : 
 				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "4级魔法行会",
 					"cost" :
 					{
 						"wood" : 5,
@@ -70,8 +70,8 @@
 				},
 				"mageGuild5" :
 				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "5级魔法行会",
 					"cost" :
 					{
 						"wood" : 5,
@@ -83,12 +83,12 @@
 						"gold" : 1000
 					},
 					"id" : 4,
-					"upgrades" : "mageGuild4"
-				},
+					"upgrades" : "mageGuild4"	
+                },					
 				"tavern" :
 				{
-					"name" : "Tavern",
-					"description" : "The Tavern increases morale for troops defending the city.",
+					"name" : "酒馆",
+					"description" : "酒馆可提高驻军的士气。",
 					"cost" :
 					{
 						"wood" : 5,
@@ -96,21 +96,10 @@
 					},
 					"id" : 5
 				},
-				"shipyard" :
-				{
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" :
-					{
-						"wood" : 20,
-						"gold" : 2000
-					},
-					"id" : 6
-				},
 				"fort" :
 				{
-					"name" : "Fort",
-					"description" : "The Fort provides your town with defensive walls.",
+					"name" : "堡垒",
+					"description" : "堡垒可为你的城镇提供城墙。",
 					"cost" :
 					{
 						"wood" : 20,
@@ -121,8 +110,8 @@
 				},
 				"citadel" :
 				{
-					"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "大本营",
+					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
 					"cost" :
 					{
 						"ore" : 5,
@@ -133,8 +122,8 @@
 				},
 				"castle" :
 				{
-					"name" : "Castle",
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "城堡",
+					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
 					"cost" :
 					{
 						"wood" : 10,
@@ -146,15 +135,15 @@
 				},
 				"villageHall" :
 				{
-					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"name" : "议事堂",
+					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
 					"id" : 10,
 					"mode" : "auto"
 				},
 				"townHall" :
 				{
-					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "内政厅",
+					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
 					"cost" :
 					{
 						"gold" : 2500
@@ -165,8 +154,8 @@
 				},
 				"cityHall" :
 				{
-					"name" : "City Hall",
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"name" : "议会",
+					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
 					"cost" :
 					{
 						"gold" : 5000
@@ -177,8 +166,8 @@
 				},
 				"capitol" :
 				{
-					"name" : "Capitol",
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "国会",
+					"description" : "国会每天向你提供4000个金币。",
 					"cost" :
 					{
 						"gold" : 10000
@@ -189,8 +178,8 @@
 				},
 				"marketplace" :
 				{
-					"name" : "Marketplace",
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "市场",
+					"description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
 					"cost" :
 					{
 						"wood" : 5,
@@ -198,79 +187,130 @@
 					},
 					"id" : 14
 				},
+				"ship" :
+				{
+					"name" : "船只",
+					"description" : "船员们正在等待起航。",
+					"id" : 20
+				},
+				"shipyard" :
+				{
+					"name" : "船坞",
+					"description" : "船坞允许你购买船只。",
+					"cost" :
+					{
+						"wood" : 20,
+						"gold" : 2000
+					},
+					"id" : 6
+				},				
 				"resourceSilo" :
 				{
-					"description" : "The Resourse Silo provides you with an additional +1 crystal each day.",
-					"name" : "Resourse Silo",
+					"description" : "物资仓库每天为你额外提供1硫磺。",
+					"name" : "物资仓库",
 					"cost" :
 					{
 						"ore" : 5,
 						"gold" : 5000
 					},
+					"produce": { "sulfur": 1 },
 					"requires" : [ "marketplace" ],
 					"id" : 15
 				},
 				"blacksmith" :
 				{
-					"description" : "The Blacksmith provides your armies with Ballista.",
-					"name" : "Blacksmith",
+					"description" : "铁匠铺可向你的军队提供弩车。",
+					"name" : "铁匠铺",
 					"cost" :
 					{
 						"wood" : 5,
 						"gold" : 1000
 					},
+					"warMachine" : "ballista",
 					"id" : 16
-				},
-				"ship" :
-				{
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
-
-					"id" : 20
 				},
 				"special1" :
 				{
-					"description" : "Nanomedic increases luck of any visiting hero for next battle by +1.",
-					"name" : "Nanomedic",
+					"description" : "怪诞之塔能提高船的移动能力。",
+					"name" : "怪诞之塔",
 					"cost" : {
-						"gold" : 1000
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5
 					},
 					"requires" : [ "resourceSilo" ],
+					"bonuses": [
+						{
+							"propagator": "PLAYER_PROPAGATOR",
+							"type": "MOVEMENT",
+							"subtype": "heroMovementSea",
+							"val": 500
+						}
+					],
 					"id" : 17
+				},
+				"horde1" :
+				{
+					"description" : "澡堂使海精灵射手和海神射手的周产量+6。",
+					"name" : "澡堂",
+					"upgrades" : "dwellingLvl2",
+					"requires" : [ "allOf", ["fort"], ["dwellingLvl2"] ],
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 18			
+				},
+				"horde1Upg" :
+				{
+					"description" : "澡堂使海精灵射手和海神射手的周产量+6。",
+					"name" : "澡堂",
+					"requires" : [ "horde1" ],
+					"upgrades" : "dwellingUpLvl2",
+					"mode" : "auto",
+					"id" : 19			
 				},
 				"special2" :
 				{
-					"description" : "Water Fist increases during the siege, it makes it possible to apply the magic of water at the expert leve.",
-					"name" : "Water Fist",
+					"description" : "在海潮帮会里，你可以花钱学习四种派系的魔法。",
+					"name" : "海潮帮会",
+					"marketModes" : ["resource-skill"],
 					"cost" : {
-						"gems" : 5,
-						"gold" : 1000
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
 					},
 					"requires" : [ "mageGuild1" ],
 					"id" : 21
 				},
-				"special3" :
+                "special3" :
 				{
-					"description" : "lighthouse increases the Power skill of any visiting hero by +1.",
-					"name" : "lighthouse",
-					"cost" : {
+					"name" : "华脐鱼",
+					"description" : "通过华脐鱼，你能从被控制的野外生物巢穴招募生物。",
+					"cost" :
+					{
 						"gems" : 5,
-						"gold" : 1000
+						"gold" : 2000
 					},
-					"requires" : [ "mageGuild4" ],
-					"id" : 22
+					"type" : "portalOfSummoning",
+					"id" : 23
 				},
 				"grail" :
 				{
-					"description" : "Summon Stone increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
-					"name" : "Summon Stone",
+					"description" : "幽灵船使每周的生物产量提高50%，每天为你的王国额外提供5000个金币。",
+					"name" : "幽灵船",
 					"id" : 26,
-					"mode" : "grail"
+					"mode" : "grail",
+					"produce": { "gold": 5000 }
 				},
+				"extraTownHall":  { "id" : 27, "requires" : [ "townHall" ], "mode" : "auto" },
+				"extraCityHall":  { "id" : 28, "requires" : [ "cityHall" ], "mode" : "auto" },
+				"extraCapitol":   { "id" : 29, "requires" : [ "capitol" ], "mode" : "auto" },
 				"dwellingLvl1" :
 				{
-					"description" : "Burrow allows to recruit Rats.",
-					"name" : "Burrow",
+					"description" : "海卫兵营允许你招募海卫兵。",
+					"name" : "海卫兵营",
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5,
@@ -281,19 +321,19 @@
 				},
 				"dwellingLvl2" :
 				{
-					"description" : "Barracks allow to recruit Grunt Soldiers.",
-					"name" : "Barracks",
+					"description" : "沿海据点允许你招募海精灵射手。",
+					"name" : "沿海据点",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 10
 					},
-					"requires" : [ "allOf", [ "fort" ], [ "blacksmith" ] ],
+					"requires" : [ "dwellingLvl1" ],
 					"id" : 31
 				},
 				"dwellingLvl3" :
 				{
-					"description" : "Fire Basin allows to recruit Pyros.",
-					"name" : "Fire Basin",
+					"description" : "守望海湾允许你招募巨蟹。",
+					"name" : "守望海湾",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
@@ -301,42 +341,41 @@
 						"mercury" : 5,
 						"gems" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ] ],
+					"requires" : [ "dwellingLvl2" ],
 					"id" : 32
 				},
 				"dwellingLvl4" :
 				{
-					"description" : "Water Altar allows to recruit Jump Soldiers.",
-					"name" : "Water Altar",
+					"description" : "沿海石窟允许你招募海妖。",
+					"name" : "沿海石窟",
 					"cost" : {
 						"gold" : 2000,
-						"ore" : 5,
 						"mercury" : 3,
 						"wood" : 5,
 						"crystal" : 3,
 						"gems" : 3,
 						"sulfur" : 3
 						},
-					"requires" : [ "dwellingLvl3" ],
+					"requires" : [ "special3" ],
 					"id" : 33
 				},
 				"dwellingLvl5" :
 				{
-					"description" : "Stingers Post allows to recruit Stingers.",
-					"name" : "Stingers Post",
+					"description" : "乌贼洞穴允许你招募乌贼。",
+					"name" : "乌贼洞穴",
 					"cost" : {
 						"gold" : 3000,
 						"ore" : 5,
 						"wood" : 5,
 						"mercury" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ],
+					"requires" : [ "dwellingLvl4" ],
 					"id" : 34
 				},
 				"dwellingLvl6" :
 				{
-					"description" : "Ancient Refinery allows to recruit Tanks.",
-					"name" : "Ancient Refinery",
+					"description" : "风暴图书馆允许你招募水卜师。",
+					"name" : "风暴图书馆",
 					"cost" : {
 						"gold" : 4000,
 						"ore" : 5,
@@ -344,13 +383,13 @@
 						"sulfur" : 5,
 						"gems" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl5" ] ],
+					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "mageGuild1" ] ],
 					"id" : 35
 				},
 				"dwellingLvl7" :
 				{
-					"description" : "Garage allows to recruit Juggernauts.",
-					"name" : "Garage",
+					"description" : "海龙神庙允许你招募利维坦。",
+					"name" : "海龙神庙",
 					"cost" : {
 						"gold" : 10000,
 						"wood" : 10,
@@ -360,13 +399,13 @@
 						"crystal" : 10,
 						"gems" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl6" ], [ "mageGuild1" ] ],
+					"requires" : [ "allOf", [ "dwellingLvl5" ] ],
 					"id" : 36
 				},
 				"dwellingUpLvl1" :
 				{
-					"description" : "Upg. Burrow allows to recruit Ratmans.",
-					"name" : "Upg. Burrow",
+					"description" : "高级海卫兵营允许你招募海卫士。",
+					"name" : "高级海卫兵营",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -377,8 +416,8 @@
 				},
 				"dwellingUpLvl2" :
 				{
-					"description" : "Upg. Barracks allow to recruit Foot Soldiers.",
-					"name" : "Upg. Barracks",
+					"description" : "高级沿海据点允许你招募海神射手。",
+					"name" : "高级沿海据点",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 5,
@@ -389,8 +428,8 @@
 				},
 				"dwellingUpLvl3" :
 				{
-					"description" : "Upg. Fire Basin allows to recruit Pyromaniacs.",
-					"name" : "Upg. Fire Basin",
+					"description" : "高级守望海湾允许你招募铁甲巨蟹。",
+					"name" : "高级守望海湾",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 10,
@@ -401,12 +440,11 @@
 				},
 				"dwellingUpLvl4" :
 				{
-					"description" : "Upg. Water Altar allows to recruit Jump Troopers.",
-					"name" : "Upg. Water Altar",
+					"description" : "高级沿海石窟允许你招募恶魔海妖。",
+					"name" : "高级沿海石窟",
 					"cost" : {
 						"mercury" : 5,
 						"ore" : 5,
-						"wood" : 5,
 						"gold" : 1500,
 						"crystal" : 5
 					},
@@ -415,8 +453,8 @@
 				},
 				"dwellingUpLvl5" :
 				{
-					"description" : "Upg. Stingers Post allows to recruit Bruisers.",
-					"name" : "Upg. Stingers Post",
+					"description" : "高级乌贼洞穴允许你招募大王乌贼。",
+					"name" : "高级乌贼洞穴",
 					"cost" : {
 						"ore" : 5,
 						"wood" : 5,
@@ -429,8 +467,8 @@
 				},
 				"dwellingUpLvl6" :
 				{
-					"description" : "Upg. Ancient Refinery allows to recruit Heavy Tanks.",
-					"name" : "Upg. Ancient Refinery",
+					"description" : "高级风暴图书馆允许你招募海卜师。",
+					"name" : "高级风暴图书馆",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
@@ -445,16 +483,17 @@
 				},
 				"dwellingUpLvl7" :
 				{
-					"description" : "Upg. Garage allows to recruit Dreadnoughts.",
-					"name" : "Upg. Garage",
+					"description" : "高级海龙神庙允许你招募利维坦巨龙。",
+					"name" : "高级海龙神庙",
 					"cost" : {
 						"ore" : 10,
 						"gold" : 25000,
 						"wood" : 10,
-						"sulfur" : 30
+						"sulfur" : 20
 					},
 					"id" : 43,
-					"upgrades" : "dwellingLvl7"
+					"upgrades" : "dwellingLvl7",
+					//"requires" : [ "mageGuild2" ],
 				}
 			}
 		}

@@ -1,0 +1,68 @@
+{
+	"midia" :
+	{
+		"class" : "admiralf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "米笛",
+			"biography" : "深海神谕海德隆的学生米笛掌握了水魔法的一个特殊方面 - 它的衰减效应。收集了来自风暴图书馆的众多手稿以后，她深入探究了海德隆这部分教学内容的精髓，并成为这一领域无与伦比的专家。",
+			"specialty" :
+			{
+				"tooltip" : "魔法增强：虚弱无力",
+				"description" : "使用虚弱无力魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"name" : "虚弱无力"
+			}
+		},		
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/midia/spec-small.png",
+			"specialtyLarge" : "regna/heroes/midia/spec-large.png",
+			"large" : "regna/heroes/midia/portrait-large.png",
+			"small" : "regna/heroes/midia/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+		       "weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+

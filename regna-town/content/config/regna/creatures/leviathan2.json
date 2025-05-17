@@ -1,0 +1,127 @@
+{
+	"leviathan2":
+	{
+		"name" :
+		{
+			"plural" : "利维坦巨龙",
+			"singular" : "利维坦巨龙"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "regna",
+		"aiValue" : 6377,
+		"attack" : 26,
+		"cost" :
+		{
+			"gold" : 3800,
+			"crystal" : 1
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"defense" : 26,
+		"fightValue" : 4990,
+		"graphics" :
+		{
+			"animation" : "regna/battle/leviathan2.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/leviathan2mini.def",
+			"iconSmall" : "regna/iconsSmall/leviathan2s.bmp",
+			"iconLarge" : "regna/iconsBig/leviathan2l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 240,
+		"level" : 7,
+	    "doubleWide" : true,		
+		"sound" :
+		{
+			"attack" : "regna/leviatk.wav",
+			"defend" : "regna/levihit.wav",
+			"killed" : "regna/levidie.wav",
+			"move" : "regna/leviwlk.wav",
+			"wince" : "regna/levihit.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			},
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"KING1" :
+			{
+				"type" : "KING",
+				"val" : 0
+			},
+			"spellPower" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.spellpower",
+				"val" : 2,
+				"propagator" : "HERO"				
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 2]
+			}
+		]
+	}
+}

@@ -1,0 +1,145 @@
+{
+	"undine2":
+	{
+		"name" :
+		{
+			"plural" : "海神射手",
+			"singular" : "海神射手"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "regna",
+		"aiValue" : 220,
+		"attack" : 6,
+        "cost" :
+		{
+			"gold" : 135
+		},
+		"damage" :
+		{
+			 "max" : 4,
+			 "min" : 2
+		},
+		"defense" : 4,
+		"fightValue" : 226,
+		"graphics" :
+		{
+			"animation" : "regna/battle/undine2.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/undine2mini.def",
+			"iconSmall" : "regna/iconsSmall/undine2s.bmp",
+			"iconLarge" : "regna/iconsBig/undine2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+     			"projectile" : "PELFX.DEF",	
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+        },
+
+		"growth" : 10,
+		"horde" : 6,
+		"hitPoints" : 12,
+		"level" : 2,
+	    "shots" : 24,		
+		"sound" :
+		{
+			"attack": "PIXIATTK.wav",
+			"defend": "PIXIDFND.wav",
+			"killed": "PIXIKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "WELFSHOT.wav",
+			"wince": "PIXIWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+        {
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty":
+			{
+				"type": "NO_MELEE_PENALTY"
+			},
+			"morale" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+			},
+			{ 
+				"bonus" : 
+				{ 
+					"type" : "SHOTS" 
+				}, 
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] 
+			}
+		]
+	}
+}

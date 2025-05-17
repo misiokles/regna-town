@@ -1,0 +1,118 @@
+{
+	"siren1":
+	{
+		"name" :
+		{
+			"plural" : "海妖",
+			"singular" : "海妖"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "regna",
+		"aiValue" : 515,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"defense" : 9,
+		"fightValue" : 496,
+		"graphics" :
+		{
+			"animation" : "regna/battle/siren1.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/siren1mini.def",
+			"iconSmall" : "regna/iconsSmall/siren1s.bmp",
+			"iconLarge" : "regna/iconsBig/siren1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 5,
+		"hitPoints" : 30,
+		"level" : 4,
+		"upgrades":
+		[
+			"siren2"
+		],
+		"sound" :
+		{
+			"attack": "regna/sirenkiss.wav",
+			"defend": "regna/sirenhit.wav",
+			"killed": "regna/sirendie.wav",
+			"move": "HARPMOVE.wav",
+			"wince": "regna/sirenhit.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			},
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+			}
+		]
+	}
+}

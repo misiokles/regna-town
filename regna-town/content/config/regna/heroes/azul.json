@@ -1,0 +1,74 @@
+{
+	"azul" :
+	{
+		"class" : "admiralf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "阿祖尔",
+			"biography" : "阿祖尔是利维坦冰魔法学校的主人。她是这所学校的一名长期教授，她教授施放冰霜魔咒的秘诀，她完美地掌握施放的技巧。由于对教学感到厌倦，她要求参加瑞文发动的大陆战争，因为她一直想在真实的战斗中应用她的技能。",
+			"specialty" :
+			{
+				"tooltip" : "魔法增强：寒冰魔环",
+				"name" : "寒冰魔环",
+				"description" : "使用寒冰魔环魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "regna/heroes/azul/spec-small.png",
+			"specialtyLarge" : "regna/heroes/azul/spec-large.png",
+			"large" : "regna/heroes/azul/portrait-large.png",
+			"small" : "regna/heroes/azul/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"frostRing"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 10,
+				"min" : 5
+			},
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"subtype" : "spell.frostRing",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 7
+				}
+			}
+		}
+	}
+}

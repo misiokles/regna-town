@@ -1,8 +1,7 @@
 {
 	"regna":
 	{
-		"puzzleMap" :
-		{
+		"puzzleMap" : {
 			"prefix" : "regna/puzzle-map/PUZ",
 			"pieces" :
 			[

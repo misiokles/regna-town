@@ -1,0 +1,26 @@
+{
+    "basepath" : "regna/town-screen/frames/",
+	"images" :
+	[
+		{ "frame" : 3, "file" : "mg4"},
+		{ "frame" : 4, "file" : "mg5"},
+		{ "frame" : 6, "file" : "dock"},
+		{ "frame" : 7, "file" : "cas1"},
+		{ "frame" : 8, "file" : "cas2"},
+		{ "frame" : 9, "file" : "cas3"},
+		{ "frame" : 10, "file" : "village"},
+		{ "frame" : 11, "file" : "townhall"},
+		{ "frame" : 12, "file" : "cityhall"},
+		{ "frame" : 13, "file" : "capitol"},
+		{ "frame" : 17, "file" : "special1"},
+		{ "frame" : 18, "file" : "hrd1"},
+		{ "frame" : 19, "file" : "hrd1Upg"},
+		{ "frame" : 22, "file" : "special3"},
+		{ "frame" : 26, "file" : "grail"},
+		{ "frame" : 36, "file" : "dw7"},
+		{ "frame" : 37, "file" : "dw1u"},
+		{ "frame" : 39, "file" : "dw3u"},
+		{ "frame" : 41, "file" : "dw5u"},
+		{ "frame" : 43, "file" : "dw7u"}
+	]
+}

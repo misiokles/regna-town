@@ -1,0 +1,118 @@
+{
+	"crab1":
+	{
+		"name" :
+		{
+			"plural" : "巨蟹",
+			"singular" : "巨蟹"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 12
+		},
+		"faction" : "regna",
+		"aiValue" : 221,
+		"attack" : 9,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 180
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 3
+		},
+		"defense" : 10,
+		"fightValue" : 226,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "regna/battle/crab1.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/crab1mini.def",
+			"iconSmall" : "regna/iconsSmall/crab1s.bmp",
+			"iconLarge" : "regna/iconsBig/crab1l.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+
+		"growth" : 6,
+	    "doubleWide" : true,			
+		"hitPoints" : 25,
+        "level" : 3,
+		"upgrades":
+		[
+			"crab2"
+		],
+		"sound" :
+		{
+			"attack" : "regna/crabatk.wav",
+			"defend" : "regna/crabblk.wav",
+			"killed" : "regna/crabdie.wav",
+			"move": "regna/crabwlk.wav",
+			"wince" : "regna/crabhit.wav"
+		},
+		"speed" : 4,
+		"abilities" :
+		{
+			"KING1" :
+			{
+				"type" : "KING",
+				"val" : 0
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 2]
+			}
+		]
+	}
+}

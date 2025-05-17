@@ -1,0 +1,61 @@
+{
+	"marin" :
+	{
+		"class" : "admiral",
+		"texts" :
+		{
+			"name" : "马林",
+			"biography" : "作为阿夸隆海洋主教公会的主人，马林是水魔法的专家。他完全了解这个神奇学校的所有细微之处。在阿夸隆的协助下，瑞文在他的大陆战争中接受了马林并授予他海军上将的地位。",
+			"specialty" :
+			{
+				"description" : "开始时就懂得高级水系魔法。",
+				"tooltip" : "技能加成：水系魔法",
+				"name" : "水系魔法"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "regna/heroes/marin/spec-small.png",
+			"specialtyLarge" : "regna/heroes/marin/spec-large.png",
+			"large" : "regna/heroes/marin/portrait-large.png",
+			"small" : "regna/heroes/marin/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"bless"
+		],
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "expert",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+		}
+	}
+}

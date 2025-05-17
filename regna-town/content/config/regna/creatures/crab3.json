@@ -1,0 +1,100 @@
+{
+	"crab3":
+	{
+		"name" :
+		{
+			"plural" : "蜘蛛蟹",
+			"singular" : "蜘蛛蟹"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "regna",
+		"aiValue" : 221,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 225
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 3
+		},
+		"defense" : 7,
+		"fightValue" : 226,
+		"graphics" :
+		{
+			"animation" : "regna/battle/crab3.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "regna/map/crab3mini.def",
+			"iconSmall" : "regna/iconsSmall/crab3s.bmp",
+			"iconLarge" : "regna/iconsBig/crab3l.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"growth" : 10,
+	    "doubleWide" : true,			
+		"hitPoints" : 16,
+        "level" : 2,
+		"sound" :
+		{
+			"attack" : "regna/crabatk.wav",
+			"defend" : "regna/crabblk.wav",
+			"killed" : "regna/crabdie.wav",
+			"move": "regna/crabwlk.wav",
+			"wince" : "regna/crabhit.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+		
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	}
+}

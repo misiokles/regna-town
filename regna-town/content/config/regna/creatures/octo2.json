@@ -1,0 +1,125 @@
+{
+	"octo2":
+	{
+		"name" :
+		{
+			"plural" : "大王乌贼",
+			"singular" : "大王乌贼"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"faction" : "regna",
+		"aiValue" : 1019,
+		"attack" : 14,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			 "max" : 17,
+			 "min" : 11
+		},
+		"defense" : 14,
+		"fightValue" : 933,
+		"graphics" :
+		{
+			"animation" : "regna/battle/octo2.def",
+			"map" : "regna/map/octo2mini.def",
+			"iconSmall" : "regna/iconsSmall/octo2s.bmp",
+			"iconLarge" : "regna/iconsBig/octo2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.60,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+	
+		},
+
+        "growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+		"sound" :
+		{
+			"attack" : "regna/octoatk.wav",
+			"defend" : "regna/octohit.wav",
+			"killed" : "regna/octodie.wav",
+			"move": "regna/octowlk.wav",
+			"wince" : "regna/octohit.wav"
+ 		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"KING1" :
+			{
+				"type" : "KING",
+				"val" : 0	
+			},
+			"attacksAllAdjacent":
+			{
+				"type":"ATTACKS_ALL_ADJACENT"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+			}
+		]
+	}
+}
