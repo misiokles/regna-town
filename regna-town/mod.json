@@ -3,10 +3,11 @@
 	"description" : "Regna Town",
 	"author" : "Ganymed, Necronix, Deo. VCMI port acidchalk.",
 	"contact" : "http://storm-team.3dn.ru/index/regna_description/0-26",
-	"version" : "1.04",
+	"version" : "1.05",
 	"modType" : "Town",
 	"changelog" :
     {
+		"1.05"   : [ "English translation" ],
 		"1.04"   : [ "Special buildings support" ],
 		"1.03"   : [ "Another fixes" ],
 		"1.02"   : [ "Some missing buildings" ],
@@ -17,6 +18,13 @@
 	"chinese": {
 		"name": "双屿",
 		"description": "新城镇双屿。"
+	},
+	"english": {
+		"name": "Regna Town",
+		"description": "Twin isles town",
+		"translations": [
+			"Translation/regna/english.json"
+		]
 	},
 	"factions" :
 	[
